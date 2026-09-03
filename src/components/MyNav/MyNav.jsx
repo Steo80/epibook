@@ -1,13 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import {Library} from 'lucide-react';
 
 
 const MyNav=() => {
   return (
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-info">
           <Container>
+              <Library className='m-2' />
               <Navbar.Brand href="#home">Epik Books</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
